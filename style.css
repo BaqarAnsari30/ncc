@@ -1,0 +1,58 @@
+*{
+    font-family: century-gothic, sans-serif;
+    }
+.backImg{
+    background-image:  url('E:\all-repo\ncc\images\team.jpg');
+}
+.redGradient{
+    background-image: linear-gradient(to right, rgb(255, 30, 30) , rgb(180, 2, 2));
+}
+.heading{
+    color:white;
+}
+.heading h1{
+    font-size: 54px;
+}
+.text-white{
+    color:white;
+}
+.logoImg{
+    background-image:  url('E:\all-repo\ncc\images\logo.jpg');
+}
+.loginBody{
+    height: 100vh;
+}
+.btnHover:hover{
+    background-color:white;
+    color:black;
+    text-decoration: none;
+    border:none;
+}
+.guest a:hover{
+    text-decoration: none;
+    color:white;
+}
+.guest a:focus{
+    text-decoration: none;
+    color:white;
+}
+footer {
+    background-color: #000000;
+    padding: 25px;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
